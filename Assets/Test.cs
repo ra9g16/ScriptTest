@@ -20,11 +20,11 @@ public class Boss {
 public class Test : MonoBehaviour {
 
 	void Start () {
-		int[] points = {4, 6, 1, 2, 7};		//配列の宣言及び初期化
-		for (int i = 0; i < 5; i++) {		//配列の各要素を順に表示
+		int[] points = {4, 6, 1, 2, 7};		//　配列の宣言及び初期化
+		for (int i = 0; i < 5; i++) {		//　配列の各要素を順に表示
 			Debug.Log (points [i]);
 		}
-		for (int i = 4; i >= 0; i--) {		//配列の各要素を逆順に表示
+		for (int i = 4; i >= 0; i--) {		//　配列の各要素を逆順に表示
 			Debug.Log (points [i]);
 		}
 
